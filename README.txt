@@ -34,4 +34,11 @@ FastFinishTimeParameter digunakan untuk menentukan berapa waktu penyelesaian dar
 
 StableClickCorrection digunakan untuk koreksi timing dari jeda antar klik yang dianggap stabil.
 Manusia tidak bisa mengklik dengan presisi antara klik pertama dengan klik berikutnya, karena itulah diberikan toleransi.
-Variabel ini menggunakan satuan
+Variabel ini menggunakan perbandingan 1000 point = 1 detik
+
+FastClickParameter digunakan untuk menentukan jeda antar klik yang dianggap cepat. 1000 point = 1 detik.
+Jika mengisi 1000 point berarti, pemain akan dianggap mengklik dengan cepat jika klik pertama dan kedua dilakukan dalam 1 detik.
+Untuk yang ini, ada kemungkinan akan berubah, karena ada satu konsep lagi yang belum dicoba.
+
+LowClickScoreParameter digunakan untuk menentukan berapa kali klik yang dianggap sebagai jumlah yang rendah.
+Misalkan mengisi dengan nilai 20, berarti jika pemain mengklik diatas 20 akan dianggap tinggi.
